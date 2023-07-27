@@ -222,6 +222,7 @@ h1.page-title {
 section#next-generation {
     background-color: var(--very-light-gray);
     padding: 0;
+    max-width: 900vw;;
 
 
     @media only screen and (min-width: 1024px) {
@@ -252,12 +253,14 @@ section#next-generation .container {
 }
 
 div.intro.desktop-only {
-    display: none;
     @media only screen and (min-width: 1024px) {
-        right: -8.125rem;
-        top: -3.44rem;
-        display: initial;
+        width: 700px;
+        height: 900px;
+        right: 0;
+        top: 0;
         position: absolute;
+        background-image: url('./images/image-mockups.png');
+        background-position: -95% 170%;
       }
 }
 
