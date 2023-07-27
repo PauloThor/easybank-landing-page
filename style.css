@@ -148,6 +148,13 @@ nav#mobile-nav {
     background-color: rgba(0, 0, 0, 0.5)
 }
 
+@keyframes slideDown {
+    from {
+      margin-top: 0;
+      opacity: 0;
+    }
+}
+
 nav#mobile-nav div {
     background-color: var(--white);
     width: 20rem;
@@ -157,7 +164,10 @@ nav#mobile-nav div {
     flex-direction: column;
     justify-content: space-around;
     padding: 1rem 0;
+    animation: slideDown 0.5s forwards;
 }
+
+
 
 nav a {
     color: var(--dark-blue);
