@@ -137,7 +137,7 @@ header #mobile-close {
 }
 
 nav#mobile-nav {
-    position: absolute;
+    position: fixed;
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -387,8 +387,10 @@ footer .container {
 }
 
 footer #footer-logo {
-    background-color: white;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem auto 1rem auto;
+    padding-right: 1rem;
+    width: 125px;
+    height: 23px;
 
     @media only screen and (min-width: 1024px) {
         margin: 0;
