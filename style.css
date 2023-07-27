@@ -72,10 +72,14 @@ a:hover {
     background: linear-gradient(90deg, var(--lime-green) 20%, var(--bright-cyan) 90%);
     margin: 1.8rem 0;
     cursor: pointer;
+    transition: all ease-in-out 0.3s;
+    border: 0.5px solid var(--lime-green);
 }
 
 .request-button:hover {
     opacity: 0.85;
+    background: var(--dark-blue);
+    color: var(--very-light-gray);
 }
 
 .desktop-only {
@@ -176,6 +180,13 @@ nav#desktop-nav {
 nav#desktop-nav a {
     margin: 0 0.5rem;
     color: var(--grayish-blue);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+nav#desktop-nav a:hover {
+    color: var(--lime-green);
+    background-color: var(--light-grayish-blue);
 }
 
 main {
